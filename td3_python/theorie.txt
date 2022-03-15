@@ -1,0 +1,36 @@
+Exercice 1 :
+============
+;
+; ---------------------------------
+; 1) Qu'est ce qu'un serveur Web? |
+; ---------------------------------
+;
+; Les serveurs se distingue à 2 niveaux:
+;       - Au niveau du matériel (`serveur web physique`)
+;       - Au niveux du logiciel (`serveur web logiciel`)
+;
+; Donc,
+;
+;   Un `serveur web` est soit un logiciel, soit un serveur informatique 
+; connecté à internet capable d'héberger plusieurs site web, et les afficher 
+; à la demande d'un utilisateurs.
+;
+; ---------------------------------
+; 1) Qu'est ce qu'un serveur Web? |
+; ---------------------------------
+;
+; ---------------------------------
+; 1) Qu'est ce qu'un serveur Web? |
+; ---------------------------------
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
