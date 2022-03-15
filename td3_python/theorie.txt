@@ -15,22 +15,18 @@ Exercice 1 :
 ; connecté à internet capable d'héberger plusieurs site web, et les afficher 
 ; à la demande d'un utilisateurs.
 ;
-; ---------------------------------
-; 1) Qu'est ce qu'un serveur Web? |
-; ---------------------------------
+; ----------------------------------------
+; 2) Une API REST, qu'est-ce que c'est ? |
+; ----------------------------------------
 ;
-; ---------------------------------
-; 1) Qu'est ce qu'un serveur Web? |
-; ---------------------------------
+; Une API REST est une interface de programmation d'application,
+; suivant les contrainte de style d'architecture REST et permet 
+; d'interagir avec les services web RESTful.
 ;
+; ------------------------------
+; 3) Qu'est ce qu'une FastAPI? |
+; ------------------------------
 ;
-;
-;
-;
-;
-;
-;
-;
-;
-;
+; FastAPI est un framework web permettant de développer une 
+; API RESTful en Python
 ;
