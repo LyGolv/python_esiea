@@ -20,7 +20,7 @@ Exercice 1 :
 ; ----------------------------------------
 ;
 ; Une API REST est une interface de programmation d'application,
-; suivant les contrainte de style d'architecture REST et permet 
+; suivant les contraintes de style d'architecture REST et permet 
 ; d'interagir avec les services web RESTful.
 ;
 ; ------------------------------
