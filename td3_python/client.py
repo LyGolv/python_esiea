@@ -19,8 +19,7 @@ class MainWindow(QWidget):
     def initUI(self):
         self.setWindowTitle("Client")
         self.setFixedSize(400, 260)
-        x = 10
-        y = 10
+        x, y = 10, 10
         self.label1 = QLabel("Enter your host IP:", self)
         self.label1.move(x, y)
         y += 30
@@ -63,8 +62,11 @@ class MainWindow(QWidget):
                 self.label4.setText("Answer: %s" % res)
                 self.label4.adjustSize()
                 self.show()
-                url = "https://www.openstreetmap.org/?mlat=%s&mlon=%s#map=12" % (res['LAT'], res['LONG'])
-                webbrowser.open(url)
+                if 'LAT' not in res.keys() or 'LONG' not in res.keys():
+                    QMessageBox.about(self, "Error", "Position not found")
+                else:
+                    url = "https://www.openstreetmap.org/?mlat=%s&mlon=%s#map=12" % (res['LAT'], res['LONG'])
+                    webbrowser.open(url)
 
     def __query(self, ip, api_key, hostname):
         url = "http://%s/ip/%s?key=%s" % (hostname, ip, api_key)
