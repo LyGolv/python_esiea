@@ -1,8 +1,0 @@
-958701099492180040
-
-
-
-f1cf558c70b20de3b0d61e0ec50d625b65a54b61c8ce116cac4330d792e27c5f
-
-
-https://discord.com/api/oauth2/authorize?client_id=958701099492180040&permissions=8&scope=bot
