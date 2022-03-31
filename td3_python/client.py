@@ -7,6 +7,7 @@ from PyQt5.QtWidgets import (
     QLabel,
     QMessageBox,
 )
+from PyQt5 import QtGui, QtCore
 import requests
 import sys
 
@@ -17,8 +18,16 @@ class MainWindow(QWidget):
         self.initUI()
 
     def initUI(self):
-        self.setWindowTitle("Client")
+        self.setWindowIcon(QtGui.QIcon('td3_python/desktop-solid.svg'))
+        self.setWindowTitle("Tracking_Client_XD")
         self.setFixedSize(400, 260)
+        #open qss file
+        file = QtCore.QFile("td3_python/style.qss")
+        if not file.open(QtCore.QFile.ReadOnly|QtCore.QFile.Text):
+            exit(-1)
+        qss = QtCore.QTextStream(file)
+	    #setup stylesheet
+        self.setStyleSheet(qss.readAll())
         x, y = 10, 10
         self.label1 = QLabel("Enter your host IP:", self)
         self.label1.move(x, y)
@@ -36,14 +45,14 @@ class MainWindow(QWidget):
         self.label3.move(x, y)
         y += 30
         self.text3 = QLineEdit(self)
+        self.text3.setText("127.0.0.1:8000")
         self.text3.move(x+30, y)
         y += 30
         self.label4 = QLabel("Answer:", self)
         self.label4.move(x, y)
         y += 30
         self.button = QPushButton("Send", self)
-        self.button.move(x, y)
-
+        self.button.move(300, y)
         self.button.clicked.connect(self.on_click)
         self.button.pressed.connect(self.on_click)
 

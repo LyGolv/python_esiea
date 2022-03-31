@@ -1,0 +1,62 @@
+QWidget#app {
+    background-color: rgba(171, 251, 255, 75);
+}
+
+QLabel#H1 {
+    font-size: 18px;
+    font: bold italic large "Times New Roman";
+}
+
+QGroupBox 
+{
+  border: 2px solid black; 
+  border-radius: 20px; 
+} 
+ 
+QGroupBox::title 
+{ 
+	margin: 2 2;
+  	color: #c2c7cb;
+ 	subcontrol-position: top left; 
+    left : 10px;
+	bottom: 5px;
+}
+
+QPushButton
+{
+	background-color : #fff;
+    height: 20px;
+	border-radius: 5px;
+	border-bottom: 5px solid rgba(171, 251, 255, 50);;
+}
+
+QPushButton:hover
+{
+	border: -1px solid #fcc;
+	border-bottom: 5px solid rgba(171, 251, 255, 50);;
+    background-color : rgba(250, 219, 135);
+}
+
+QPushButton:pressed
+{	
+	border-bottom: none;
+	background-color : rgba(250, 219, 135);
+}
+
+QLineEdit
+{
+    background-color: #201F1F;
+    padding: 2px;
+    border-style: solid;
+    border: 1px solid #3A3939;
+    border-radius: 2px;
+    color: silver;
+}
+
+QLineEdit:hover {
+    border: 1px solid rgba(252, 186, 3, 75);
+}
+
+QLineEdit:focus {
+    border: 1px solid #fcba03;
+}

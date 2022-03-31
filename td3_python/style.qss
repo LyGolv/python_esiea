@@ -1,0 +1,133 @@
+QWidget
+{
+    color: silver;
+    background-color: rgba(241, 138, 255s, 80);
+    selection-background-color:#3d8ec9;
+    selection-color: black;
+    background-clip: border;
+    border-image: none;
+    outline: 0;
+}
+
+QWidget:item:hover
+{
+    background-color: #78879b;
+    color: black;
+}
+
+QWidget:item:selected
+{
+    background-color: #3d8ec9;
+}
+
+QWidget:disabled
+{
+    color: #808080;
+    background-color: #302F2F;
+}
+
+QWidget:focus, QMenuBar:focus
+{
+    border: 1px solid #78879b;
+}
+
+QLineEdit
+{
+    background-color: #201F1F;
+    padding: 2px;
+    border-style: solid;
+    border: 1px solid #3A3939;
+    border-radius: 2px;
+    color: silver;
+}
+
+QTextEdit
+{
+    background-color: #201F1F;
+    color: silver;
+    border: 1px solid #3A3939;
+}
+
+QPlainTextEdit
+{
+    background-color: #201F1F;;
+    color: silver;
+    border-radius: 2px;
+    border: 1px solid #3A3939;
+}
+
+QMainWindow
+{
+    background-color: #302F2F;
+
+}
+
+QMainWindow::separator
+{
+    background-color: #302F2F;
+    color: white;
+    padding-left: 4px;
+    spacing: 2px;
+    border: 1px dashed #3A3939;
+}
+
+QMainWindow::separator:hover
+{
+
+    background-color: #787876;
+    color: white;
+    padding-left: 4px;
+    border: 1px solid #3A3939;
+    spacing: 2px;
+}
+
+
+QMenu::separator
+{
+    height: 1px;
+    background-color: #3A3939;
+    color: white;
+    padding-left: 4px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+QFrame
+{
+    border-radius: 2px;
+    border: 1px solid #444;
+}
+
+QFrame[frameShape="0"]
+{
+    border-radius: 2px;
+    border: 1px transparent #444;
+}
+
+QPushButton {
+    background-color: #6bc9e8;
+    color: black;
+}
+
+QPushButton:hover {
+    background-color: #c76be8;
+}
+
+QPushButton::menu-indicator  {
+    subcontrol-origin: padding;
+    subcontrol-position: bottom right;
+    left: 4px;
+}
+
+QToolBox  {
+    padding: 3px;
+    border: 1px transparent black;
+}
+
+QFrame[height="3"], QFrame[width="3"] {
+    background-color: #AAA;
+}
+
+QLabel {
+    color: black;
+}
