@@ -1,3 +1,10 @@
 pandas
 jupyterlab
 seaborn
+fastapi
+pyqt5
+uvicorn
+requests
+Shodan
+discord
+dotenv
