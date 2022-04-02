@@ -1,15 +1,9 @@
-from inspect import getfile
 import os
 import logging
 from dotenv import load_dotenv
 from discordbot import DiscordBot
 from parser import Parser
-
-import discord
-from discord.ext import commands
 from filefinder import getfile
-
-
 
 if __name__ == "__main__":
     parser: Parser = Parser().add_args().parse_args()

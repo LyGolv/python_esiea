@@ -1,7 +1,6 @@
 import discord
 from discord.ext import commands
 import logging
-from matplotlib.pyplot import title
 
 from pydantic import EnumMemberError
 
@@ -24,6 +23,7 @@ class HelpCommand(commands.Cog, name="helpcommand"):
         embed.add_field(name= "!hello", value='say hello', inline=True)
         embed.add_field(name= "!help", value='ask help', inline=True)
         embed.set_footer(text="Don't forget to add a reaction if this message help u :)")
+        logging.warning("[!Help message send for user]")
         await ctx.send(embed=embed)
 
 
