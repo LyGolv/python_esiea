@@ -1,16 +1,31 @@
+from inspect import getfile
 import os
 import logging
 from dotenv import load_dotenv
 from discordbot import DiscordBot
+from parser import Parser
+
+import discord
+from discord.ext import commands
+from filefinder import getfile
+
+
 
 if __name__ == "__main__":
-    load_dotenv(dotenv_path="td4_python/config")
+    parser: Parser = Parser().add_args().parse_args()
+    config = getfile(parser.config)
+    logfile = getfile(parser.logfile, "log")
+    print("==>" + config)
+    print("==>" + logfile)
+    load_dotenv(dotenv_path=config)
     logging.basicConfig(
-        filename='discordbot.log',
+        filename=logfile,
         format='%(asctime)s -- %(message)s --',
         datefmt='%m/%d/%Y %I:%M:%S',
         encoding='utf-8', 
         level=logging.WARN
     )
-    bot = DiscordBot()
-    bot.run(os.getenv("TOKEN")) # éxécution du bot
+    bot = DiscordBot(command_prefix="!")
+    bot.load_cogs()
+    
+    bot.run(os.getenv("TOKEN"))
