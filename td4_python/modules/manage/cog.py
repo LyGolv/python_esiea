@@ -1,8 +1,6 @@
 import discord
 from discord.ext import commands
 
-from zmq import Message
-
 class ManageCommand(commands.Cog, name="helpcommand"):
     """Command to manage channel"""
     
