@@ -1,6 +1,5 @@
 import discord
 from discord.ext import commands
-import logging
 
 from zmq import Message
 
@@ -41,8 +40,12 @@ class ManageCommand(commands.Cog, name="helpcommand"):
         """list all ban users"""
         bans = "La liste des utilisateurs banni du serveur sont: \n"
         banned_users = await ctx.guild.bans()
+        test = 0
         for i in banned_users:
+            test = 1
             bans += f"--> {i.user.name} : {i.user.id}\n"
+        if test == 0:
+            bans = "<-----Aucun utilisateur n'a été bannis----->"
         await ctx.send(bans)
 
 def setup(bot: commands.Bot):

@@ -189,3 +189,30 @@ Olvod -- [bot_tp_ing] --
 04/02/2022 07:38:36 -- (Sent message) -- Olvod#3135 à été ban pour la raison suivante : . -- [bot_tp_ing] --
 04/02/2022 07:38:46 -- (Sent message) -- !unban 958781923382132737 -- [Lioguy] --
 04/02/2022 07:38:46 -- (Sent message) -- <@958781923382132737> à été unban -- [bot_tp_ing] --
+04/02/2022 07:42:58 -- PyNaCl is not installed, voice will NOT be supported --
+04/02/2022 07:43:00 -- (connection) -- bot_tp_ing est connecté au serveur. --
+04/02/2022 07:43:19 -- (Sent message) -- !help -- [Lioguy] --
+04/02/2022 07:43:19 -- (Sent message) -- I'm gonna help you! -- [bot_tp_ing] --
+04/02/2022 07:43:19 -- [!Help message send for user] --
+04/02/2022 07:43:19 -- (Sent message) --  -- [bot_tp_ing] --
+04/02/2022 07:43:25 -- (Sent message) -- !clear 5 -- [Lioguy] --
+04/02/2022 07:43:26 -- We are being rate limited. Retrying in 4.09 seconds. Handled under the bucket "958704849304834111:None:/channels/{channel_id}/messages/{message_id}" --
+04/02/2022 07:43:31 -- (Sent message) -- !help -- [Lioguy] --
+04/02/2022 07:43:31 -- (Sent message) -- I'm gonna help you! -- [bot_tp_ing] --
+04/02/2022 07:43:31 -- [!Help message send for user] --
+04/02/2022 07:43:32 -- (Sent message) --  -- [bot_tp_ing] --
+04/02/2022 07:43:39 -- (Sent message) -- !banlsId -- [Lioguy] --
+04/02/2022 07:43:39 -- (Sent message) -- La liste des utilisateurs banni du serveur sont: -- [bot_tp_ing] --
+04/02/2022 07:45:07 -- PyNaCl is not installed, voice will NOT be supported --
+04/02/2022 07:45:09 -- (connection) -- bot_tp_ing est connecté au serveur. --
+04/02/2022 07:45:16 -- (Sent message) -- !banlsId -- [Lioguy] --
+04/02/2022 07:45:17 -- (Sent message) -- <-----Aucun utilisateur n'a été bannis-----> -- [bot_tp_ing] --
+04/02/2022 07:45:35 -- (Sent message) -- !ban <@!958781923382132737> -- [Lioguy] --
+04/02/2022 07:45:36 -- (Sent message) -- Olvod#3135 à été ban pour la raison suivante : . -- [bot_tp_ing] --
+04/02/2022 07:45:41 -- (Sent message) -- !banlsId -- [Lioguy] --
+04/02/2022 07:45:41 -- (Sent message) -- La liste des utilisateurs banni du serveur sont: 
+--> Olvod : 958781923382132737 -- [bot_tp_ing] --
+04/02/2022 07:45:52 -- (Sent message) -- !unban 958781923382132737 -- [Lioguy] --
+04/02/2022 07:45:53 -- (Sent message) -- <@958781923382132737> à été unban -- [bot_tp_ing] --
+04/02/2022 07:46:00 -- (Sent message) -- !banlsId -- [Lioguy] --
+04/02/2022 07:46:00 -- (Sent message) -- <-----Aucun utilisateur n'a été bannis-----> -- [bot_tp_ing] --

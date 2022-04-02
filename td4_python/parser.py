@@ -1,5 +1,4 @@
-from argparse import ArgumentParser, Namespace
-from wsgiref.handlers import IISCGIHandler
+from argparse import ArgumentParser
 
 class Parser(ArgumentParser):
     def __init__(self):
